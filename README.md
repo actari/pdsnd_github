@@ -4,3 +4,10 @@
 
 - __Project Overview__
 3 csv datasets for bike sharing details in 3 cities: Washington, Chicago and New York city. Available data are used to create a terminal application which gives some statistics like common stations, common birth year.
+
+- __Requirements__
+    - Anaconda
+        - Python
+        - Pandas
+        - Numpy
+        - Jupiter Notebook
