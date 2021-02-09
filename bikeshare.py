@@ -177,6 +177,11 @@ def user_stats(df):
     print('-' * 40)
 
 def raw_data(df):
+    """
+    Asks user if they want to see 5 lines of raw data.
+    Returns the 5 lines of raw data if user inputs `yes`. Iterate until user response with a `no`
+
+    """
     restart = input('\nWould you like to see raw data? Enter yes or no.\n')
     if restart.lower() != 'yes':
         return
